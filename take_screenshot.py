@@ -51,11 +51,7 @@ while True:
                 cv2.imwrite("in_memory_to_disk.png", image)
 
                 
-                pyautogui.screenshot("straight_to_disk.png")
-
                 
-                image = cv2.imread("straight_to_disk.png")
-                cv2.imshow("Screenshot", imutils.resize(image, width=600))
   
 
 
